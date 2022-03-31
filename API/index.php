@@ -1,9 +1,9 @@
 <?php
+include_once ('./server-configure.php');
 header('Content-type: application/json');
 
-
 $message = [
-    'hello' => 'world'
+    'hello' => $db_configure['id']
 ];
 
 
