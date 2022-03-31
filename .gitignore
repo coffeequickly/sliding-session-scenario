@@ -88,3 +88,6 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# 서버 테스트용 코드
+server-configure.php
